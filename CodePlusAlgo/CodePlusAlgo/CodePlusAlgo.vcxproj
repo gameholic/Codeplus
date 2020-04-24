@@ -138,6 +138,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Problem_15649.cpp" />
+    <ClCompile Include="Problem_15650.cpp" />
+    <ClCompile Include="Problem_15651.cpp" />
+    <ClCompile Include="Problem_15654.cpp" />
+    <ClCompile Include="Problem_15663.cpp" />
+    <ClCompile Include="Problem_1934.cpp" />
+    <ClCompile Include="Problem_2309.cpp" />
+    <ClCompile Include="Problem_2609.cpp" />
+    <ClCompile Include="Problem_9613.cpp" />
+    <ClCompile Include="stdheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problem_15649.h" />
+    <ClInclude Include="Problem_15650.h" />
+    <ClInclude Include="Problem_15651.h" />
+    <ClInclude Include="Problem_15654.h" />
+    <ClInclude Include="Problem_15663.h" />
+    <ClInclude Include="Problem_1934.h" />
+    <ClInclude Include="Problem_2309.h" />
+    <ClInclude Include="Problem_2609.h" />
+    <ClInclude Include="Problem_9613.h" />
+    <ClInclude Include="stdheader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

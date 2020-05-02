@@ -143,6 +143,7 @@
     <ClCompile Include="Problem_15651.cpp" />
     <ClCompile Include="Problem_15654.cpp" />
     <ClCompile Include="Problem_15663.cpp" />
+    <ClCompile Include="Problem_15663_Answer.cpp" />
     <ClCompile Include="Problem_1934.cpp" />
     <ClCompile Include="Problem_2309.cpp" />
     <ClCompile Include="Problem_2609.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="Problem_15651.h" />
     <ClInclude Include="Problem_15654.h" />
     <ClInclude Include="Problem_15663.h" />
+    <ClInclude Include="Problem_15663_Answer.h" />
     <ClInclude Include="Problem_1934.h" />
     <ClInclude Include="Problem_2309.h" />
     <ClInclude Include="Problem_2609.h" />

@@ -2,6 +2,5 @@
 C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\CodePlusAlgo\Problem_1260.cpp(20,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
 C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\CodePlusAlgo\Problem_1260.h(3,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
 C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\CodePlusAlgo\Problem_1260.cpp(33,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\CodePlusAlgo\Problem_1260.cpp(63,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\CodePlusAlgo\Problem_1260.cpp(66,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\CodePlusAlgo\Problem_1260.cpp(54,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   CodePlusAlgo.vcxproj -> C:\Users\gamed\Desktop\CodePract\CodePlus\CodePlusAlgo\Debug\CodePlusAlgo.exe

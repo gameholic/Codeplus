@@ -1,6 +1,10 @@
 #pragma once
 #include <iostream>
-
+#include <queue>
+#include <vector>
+#include <stdlib.h>
+#include <algorithm>
+#include <cstring>
 using namespace std;
 class stdheader
 {

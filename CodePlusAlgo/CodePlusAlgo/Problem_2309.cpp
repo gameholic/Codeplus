@@ -1,6 +1,6 @@
 #include "Problem_2309.h"
 
-int n = 9;
+//int n = 9;
 //
 //int compar(const void* p1, const void* p2) {
 //

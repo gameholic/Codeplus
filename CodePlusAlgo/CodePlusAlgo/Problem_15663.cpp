@@ -130,68 +130,69 @@ int compar(const void* p1, const void* p2) {
     
     	return (*(int*)p1 - *(int*)p2);
     }
-int main() {
-    Problem_15663 p;
-    int n, m;
-    cin >> n >> m;
-    int temp[10];
-    for (int i = 0; i < n; i++) {
-        cin >> temp[i];
-    }
-    qsort(temp,n, sizeof(int), compar);
-    int k = 0;
-    int x = temp[0];
-    int c = 1;
-
-    //////////
-    printf("\n");
-    printf("temp :");
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%i ", temp[i]);
-    }
-    printf("\n");
-    /////////////
-    for (int i = 1; i < n; i++) {
-        printf("i = %i, k = %i, x = %i, c = %i, temp[i] = %i\n",i, k, x, c, temp[i]);
-
-
-        if (x == temp[i]) {
-            c += 1;
-        }
-        else {
-            p15663_num[k] = x;
-            cnt[k] = c;
-            k += 1;
-            x = temp[i];
-            c = 1;
-        }
-        printf("i = %i, k = %i, x = %i, c = %i, temp[i] = %i\n", i, k, x, c, temp[i]);
-    }
-    p15663_num[k] = x;
-    cnt[k] = c;
-    n = k + 1; 
-    //////////////
-    printf("\n");
-    printf("Num :");
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%i ", p15663_num[i]);
-    }
-    printf("\n");
-    ///////////////
-     //////////////
-    printf("\n");
-    printf("Cnt :");
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%i ", cnt[i]);
-    }
-    printf("\n");
-    ///////////////
-
-    p.go(0, n, m);
-   
-
-    return 0;
-}
+//
+//int main() {
+//    Problem_15663 p;
+//    int n, m;
+//    cin >> n >> m;
+//    int temp[10];
+//    for (int i = 0; i < n; i++) {
+//        cin >> temp[i];
+//    }
+//    qsort(temp,n, sizeof(int), compar);
+//    int k = 0;
+//    int x = temp[0];
+//    int c = 1;
+//
+//    //////////
+//    printf("\n");
+//    printf("temp :");
+//    for (int i = 0; i < 10; i++)
+//    {
+//        printf("%i ", temp[i]);
+//    }
+//    printf("\n");
+//    /////////////
+//    for (int i = 1; i < n; i++) {
+//        printf("i = %i, k = %i, x = %i, c = %i, temp[i] = %i\n",i, k, x, c, temp[i]);
+//
+//
+//        if (x == temp[i]) {
+//            c += 1;
+//        }
+//        else {
+//            p15663_num[k] = x;
+//            cnt[k] = c;
+//            k += 1;
+//            x = temp[i];
+//            c = 1;
+//        }
+//        printf("i = %i, k = %i, x = %i, c = %i, temp[i] = %i\n", i, k, x, c, temp[i]);
+//    }
+//    p15663_num[k] = x;
+//    cnt[k] = c;
+//    n = k + 1; 
+//    //////////////
+//    printf("\n");
+//    printf("Num :");
+//    for (int i = 0; i < 10; i++)
+//    {
+//        printf("%i ", p15663_num[i]);
+//    }
+//    printf("\n");
+//    ///////////////
+//     //////////////
+//    printf("\n");
+//    printf("Cnt :");
+//    for (int i = 0; i < 10; i++)
+//    {
+//        printf("%i ", cnt[i]);
+//    }
+//    printf("\n");
+//    ///////////////
+//
+//    p.go(0, n, m);
+//   
+//
+//    return 0;
+//}

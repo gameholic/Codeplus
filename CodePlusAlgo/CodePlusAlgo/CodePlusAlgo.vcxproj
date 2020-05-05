@@ -138,6 +138,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Practice_BFSDFS.cpp" />
+    <ClCompile Include="Problem_1260.cpp" />
     <ClCompile Include="Problem_15649.cpp" />
     <ClCompile Include="Problem_15650.cpp" />
     <ClCompile Include="Problem_15651.cpp" />
@@ -151,6 +153,8 @@
     <ClCompile Include="stdheader.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Practice_BFSDFS.h" />
+    <ClInclude Include="Problem_1260.h" />
     <ClInclude Include="Problem_15649.h" />
     <ClInclude Include="Problem_15650.h" />
     <ClInclude Include="Problem_15651.h" />
